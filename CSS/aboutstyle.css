@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    background-image: url("../Images/Optimized\ photos/farm-background-optimized.jpg");
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15pt;
+    
+}
+
+h1, h2, h3 {
+    margin: auto;
+
+}
+
+h3 {
+    font-size: 18px;
+    color: darkgray;
+}
+
+#container {
+    background-color: skyblue;
+    width: 1400px;
+    height: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 200px;
+    background-image: url("../Images/Optimized\ photos/cloud-headerOptimized.jpg");
+    background-position-x: center;
+  /*  border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.h-column {
+    width: 80px;
+   /* border: solid black;*/
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h-column a img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.h-column img:hover {
+    scale: 150%;
+}
+
+.flex-row {
+   /* border: solid black;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 280px;
+    height: auto;
+}
+
+
+.flex-row button {
+    border-radius: 1em;
+    height: 50px;
+}
+
+.flex-row button:hover {
+    scale: 110%;
+    background-color: cyan;
+    border: solid navy .5px;
+}
+
+.nav {
+    padding-right: 10em;
+    padding-left: 10em;
+    background-color: gold;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.nav button {  
+    border-radius: 1em;
+    align-self: center;
+    height: 60px;
+    width: 120px;
+}
+
+.nav button:hover {
+
+    scale: 130%;
+    display: block;
+    position: relative;
+    background-color: yellow;
+    border: solid goldenrod;
+}
+
+.nav ul {
+    float: left;
+}
+
+.nav ul button {
+float: left;
+margin-left: 1em;
+margin-right: 1em;
+list-style: none;
+position: relative;
+}
+
+.nav ul button ul {
+    display: none;
+    margin-top: 1.3em;
+    position: absolute;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.nav ul button:hover ul {
+    display: block;
+    position: absolute;
+    background-color: gold;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.nav ul button ul li {
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav ul button ul li a:hover {
+    background-color: yellow;
+}
+
+.content {
+    padding: 15px;
+    width: auto;
+    display: flex;
+
+}
+
+.content > div {
+    align-content: center;
+    padding: 2%;
+    background-color: khaki;
+    justify-content: center;
+}
+
+p {
+    font-size: 25pt;
+    line-height: 40pt;
+}
+
+.footer {
+    background-color: gold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 1400px;
+}

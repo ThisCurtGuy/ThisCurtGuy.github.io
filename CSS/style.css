@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    background-image: url("../Images/Optimized\ photos/farm-background-optimized.jpg");
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15pt;
+    
+}
+
+/*h1, h2, h3 {
+    margin: auto;
+
+}*/
+
+#container {
+    background-color: skyblue;
+    width: 1400px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 200px;
+    background-image: url("../Images/Optimized\ photos/cloud-headerOptimized.jpg");
+    background-position-x: center;
+  /*  border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.h-column {
+    width: 80px;
+   /* border: solid black;*/
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h-column a img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.h-column img:hover {
+    scale: 150%;
+}
+
+.flex-row {
+   /* border: solid black;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 280px;
+    height: auto;
+}
+
+
+.flex-row button {
+    border-radius: 1em;
+    height: 50px;
+}
+
+.flex-row button:hover {
+    scale: 110%;
+    background-color: cyan;
+    border: solid navy .5px;
+}
+
+.nav {
+    padding-right: 10em;
+    padding-left: 10em;
+    background-color: lightgreen;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.nav button {  
+    border-radius: 1em;
+    align-self: center;
+    height: 60px;
+    width: 120px;
+}
+
+.nav button:hover {
+
+    scale: 130%;
+    display: block;
+    position: relative;
+    background-color: lime;
+    border: solid green;
+}
+
+.nav ul {
+    float: left;
+}
+
+.nav ul button {
+float: left;
+margin-left: 1em;
+margin-right: 1em;
+list-style: none;
+position: relative;
+z-index: 1000;
+}
+
+.nav ul button ul {
+    display: none;
+    margin-top: 1.3em;
+    position: absolute;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 1000;
+}
+
+.nav ul button:hover ul {
+    display: block;
+    position: absolute;
+    background-color: lightgreen;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.nav ul button ul li {
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav ul button ul li a:hover {
+    background-color: lime;
+}
+
+.slider-image {
+    flex: 70%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: deepskyblue;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container > div {
+    background-color: cornflowerblue;
+    color: black;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+.ingHead {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+div > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+    color: darkorange;
+    
+}
+
+.ingContent {
+    padding: 10px;
+    display: flex;
+    /*background-color: sandybrown; */
+    justify-content: center;
+    clear: both;
+}
+
+.ingContent > div > li {
+    color: firebrick;
+    font-size: 20pt;
+    line-height: 60px;
+
+}
+
+.ingContent > div > div > li {
+    color: firebrick;
+    font-size: 20pt;
+
+}
+
+.ingContent > div {
+    padding-left: .5em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 5em;
+    border-bottom: solid green thick;
+    border-right: solid green thick;
+    background-color: orange;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.ingContent > div > h1 {
+    color: wheat;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+}
+
+.ingContent > div > h2 {
+    color: wheat;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+}
+
+.ingContent > div > h3 {
+    color: wheat;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+}
+
+.ingContent > div > div > h4 {
+    color: wheat;
+    height: auto;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+}
+
+.ingContent > div > div > h5 {
+    color: wheat;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+
+.blogContent {
+ /*   background-color: red;*/
+    flex-direction: column;
+    display: flex;
+    padding: 5em;
+    width: auto;
+}
+
+/*.blogContent > div {
+    padding: 2em;
+    display: flex;
+    height: auto;
+    width: 690px;
+    border: solid red;
+}*/
+
+h5 a {
+    font-size: 25pt;
+    color: white;
+    float: right;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+h5 a:hover {
+    color: lime;
+}
+
+table {
+    /*background: #ccc;*/
+    margin-right: auto;
+    width: 100%;
+    float: right;
+
+}
+
+table tr th a img {
+    border: solid thick red;
+}
+
+table tr th a img:hover{
+    border: solid thick lime;
+    position: relative;
+}
+
+blog {
+    border: solid thick red;
+    float: left;
+    background-color: darksalmon;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: darkred;
+   /* width: 100%;*/
+}
+
+article h3 {
+    float: left;
+   /* width: 95%;*/
+   border: solid thick red;
+    background-color: indianred;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+
+
+article h4 {
+/*    float: left;
+    width: 95.5%;*/
+    height: 10px;
+    border: solid thick red;
+    background-color: lightpink;
+    padding: 30px;
+    margin-top: 2px;
+    font-size: 16px;
+
+}
+
+article {
+    width: 100%;
+    background-color: red;
+}
+
+#readMoreBlock a {
+    font-size: 25pt;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: brown;
+    height: auto;
+    width: 200px;
+}
+
+#readMoreBlock a:hover {
+   color: red;
+}
+
+.footer {
+    text-align: center;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+}
+
+.carousel-wrapper {
+    height: 600px;   
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.arrow {
+    border: solid lime;
+    border-width: 0 9px 9px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.prevArrow {
+    left: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.nextArrow {
+    right: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.light {
+    color: white;
+}
+
+@media (maz-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+
+
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    color: lime;
+    background: url('../Images/hannah-busing-rYWEj9Cyx7E-unsplash.jpg');
+    background-size: cover;
+}
+
+.item-2 {
+    color: lime;
+    background: url('../Images/jason-leung-poI7DelFiVA-unsplash.jpg');
+    background-size: cover;
+}
+
+.item-3 {
+    color: lime;
+    background: url('../Images/nick-karvounis-8PR1tT9UmmU-unsplash.jpg');
+    background-size: cover;
+}
+
+:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
